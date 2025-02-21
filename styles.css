@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(185, 178, 138);
+    color: rgb(248, 243, 217);
+    font-family: 'poppins', sans-serif;
+}
+
+nav{
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(80, 75, 56);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+/* .navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 18px; 
+ } */
+
+
+#home{
+    text-align: center;
+    background: url(123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(80%);
+    
+}
+
+/* alignemnt of image in hero section  */
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero img {
+    position: absolute;
+    top: 200px; /* Adjust position */
+    right: 50px; /* Adjust position */
+    left: 100px;
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.hero article{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  left:700px
+}
+
+#skills{
+    text-align: center;
+    
+}
+#education{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+
+
+#lam{
+    margin: 0%;
+    padding: 0%;
+}
+#sam{
+    margin: 0%;
+    padding: 0%;
+}
